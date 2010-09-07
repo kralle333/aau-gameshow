@@ -1,0 +1,15 @@
+Toss the Turtle
+*Hoppe for at komme op igen
+
+Grapple
+*Give stene en konstant fart
+*Når der hoppes hopper spilleren videre.
+
+Andre spil
+*Sidescrolling (En button til at hoppe) (Multiplayer)
+	*Man løber af sig selv, det kan skydes og hoppes (2 trampoliner)
+		*Alt er hvor meget kraft man lægger i sit hop, så hopper man højere.
+
+
+Crush the Castle
+	*time 2 tryk
