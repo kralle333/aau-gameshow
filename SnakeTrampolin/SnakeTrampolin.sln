@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeTrampolin", "SnakeTrampolin\SnakeTrampolin.csproj", "{C067853B-8859-4628-B221-8893842B0614}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C067853B-8859-4628-B221-8893842B0614}.Debug|x86.ActiveCfg = Debug|x86
+		{C067853B-8859-4628-B221-8893842B0614}.Debug|x86.Build.0 = Debug|x86
+		{C067853B-8859-4628-B221-8893842B0614}.Release|x86.ActiveCfg = Release|x86
+		{C067853B-8859-4628-B221-8893842B0614}.Release|x86.Build.0 = Release|x86
+		{B3AAF921-6BDD-4B3B-ACDE-8AF41E481D1A}.Debug|x86.ActiveCfg = Debug|x86
+		{B3AAF921-6BDD-4B3B-ACDE-8AF41E481D1A}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
