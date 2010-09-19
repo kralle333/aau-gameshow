@@ -1,5 +1,5 @@
+Content\snakeBody.xnb
 Content\apple.xnb
 Content\backgroundSnake.xnb
-Content\snakeBody.xnb
 Content\snakeHead.xnb
 Content\highScoreFont.xnb

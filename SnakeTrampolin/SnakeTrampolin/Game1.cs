@@ -41,6 +41,7 @@ namespace SnakeTrampolin
 		List<Vector2> snakePosition = new List<Vector2>();
 		bool addingSnakeBody = false;
 		string currentDirection = "right";
+		bool directionChanged = false;
 
 		public Game1()
 		{
@@ -94,7 +95,7 @@ namespace SnakeTrampolin
 			KeyboardState keyboardState = Keyboard.GetState();
 			if (playScreenActive)
 			{
-				if (gameSpeed > 100)
+				if (gameSpeed > 200)
 				{
 					timer += gameTime.ElapsedGameTime.Milliseconds;
 
@@ -102,25 +103,29 @@ namespace SnakeTrampolin
 					{
 						UpdateSnake();
 						timer = 0;
+						directionChanged = false;
 					}
 				}
 				else
 				{
 					UpdateSnake();
 				}
-				if (keyboardState.IsKeyDown(Keys.K) && prevKeystate.IsKeyUp(Keys.K))
+				if (!directionChanged)
 				{
-					ChangeDirection("left");
-				}
-				else if (keyboardState.IsKeyDown(Keys.L) && prevKeystate.IsKeyUp(Keys.L))
-				{
-					ChangeDirection("right");
+					if (keyboardState.IsKeyDown(Keys.Z) && prevKeystate.IsKeyUp(Keys.Z))
+					{
+						ChangeDirection("left");
+					}
+					else if (keyboardState.IsKeyDown(Keys.X) && prevKeystate.IsKeyUp(Keys.X))
+					{
+						ChangeDirection("right");
+					}
 				}
 			}
 			else
 			{
-				if (keyboardState.IsKeyDown(Keys.K) && prevKeystate.IsKeyUp(Keys.K) &&
-					keyboardState.IsKeyDown(Keys.L) && prevKeystate.IsKeyUp(Keys.L))
+				if (keyboardState.IsKeyDown(Keys.Z) && prevKeystate.IsKeyUp(Keys.Z) &&
+					keyboardState.IsKeyDown(Keys.X) && prevKeystate.IsKeyUp(Keys.X))
 				{
 					SpawnSnake();
 					SpawnApple();
@@ -237,6 +242,7 @@ namespace SnakeTrampolin
 					case "down": currentDirection = "right"; break;
 				}
 			}
+			directionChanged = true;
 		}
 
 		protected override void Draw(GameTime gameTime)
@@ -257,7 +263,14 @@ namespace SnakeTrampolin
 					}
 					else
 					{
-						spriteBatch.Draw(snakeHeadTexture, position, Color.White);
+						switch (currentDirection)
+						{
+							case "right": spriteBatch.Draw(snakeHeadTexture, position, Color.White); break;
+							case "down": spriteBatch.Draw(snakeHeadTexture, position + new Vector2(16f, 16f), null, Color.White, (float)Math.PI/2, new Vector2(16f, 16f), 1, SpriteEffects.None, 0); break;
+							case "left": spriteBatch.Draw(snakeHeadTexture, position + new Vector2(16f, 16f), null, Color.White, (float)Math.PI, new Vector2(16f, 16f), 1, SpriteEffects.None, 0); break;
+							case "up": spriteBatch.Draw(snakeHeadTexture, position + new Vector2(16f, 16f), null, Color.White, (float)-(Math.PI)/2, new Vector2(16f, 16f), 1, SpriteEffects.None, 0); break;
+						}
+						
 						headDrawn = true;
 					}
 				}

@@ -2,12 +2,21 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
+      <Source>snakeBody.png</Source>
+      <Name>snakeBody</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\snakeBody.xnb</Output>
+      <Time>2010-09-08T17:02:01.6730827+02:00</Time>
+    </Item>
+    <Item>
       <Source>apple.png</Source>
       <Name>apple</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Dokumenter\Programmering\c#\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\apple.xnb</Output>
+      <Output>E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\apple.xnb</Output>
       <Time>2010-09-08T16:16:14.7702747+02:00</Time>
     </Item>
     <Item>
@@ -16,17 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Dokumenter\Programmering\c#\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\backgroundSnake.xnb</Output>
+      <Output>E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\backgroundSnake.xnb</Output>
       <Time>2010-09-08T17:03:21.5631532+02:00</Time>
-    </Item>
-    <Item>
-      <Source>snakeBody.png</Source>
-      <Name>snakeBody</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>E:\Dokumenter\Programmering\c#\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\snakeBody.xnb</Output>
-      <Time>2010-09-08T17:02:01.6730827+02:00</Time>
     </Item>
     <Item>
       <Source>snakeHead.png</Source>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Dokumenter\Programmering\c#\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\snakeHead.xnb</Output>
+      <Output>E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\snakeHead.xnb</Output>
       <Time>2010-09-08T17:37:13.516381+02:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Dokumenter\Programmering\c#\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\highScoreFont.xnb</Output>
+      <Output>E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\highScoreFont.xnb</Output>
       <Time>2010-09-08T19:06:35.307228+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -51,10 +51,10 @@
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>E:\Dokumenter\Programmering\c#\SnakeTrampolin\SnakeTrampolin\Content\</RootDirectory>
-      <LoggerRootDirectory>E:\Dokumenter\Programmering\c#\SnakeTrampolin\SnakeTrampolin\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\Dokumenter\Programmering\c#\SnakeTrampolin\SnakeTrampolin\Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>E:\Dokumenter\Programmering\c#\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\Content\</RootDirectory>
+      <LoggerRootDirectory>E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
