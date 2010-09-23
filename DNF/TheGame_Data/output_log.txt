@@ -1,0 +1,13 @@
+Player: init engine
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 8.16.11.9062]
+    Renderer: NVIDIA GeForce 9300M GS
+    Vendor:   NVIDIA
+    VRAM:     256 MB
+desktop: 1280x800 75Hz; virtual: 1280x800 at 0,0
+     Actor::updateMassFromShapes: Compute mesh inertia tensor failed for one of the actor's mesh shapes! Please change mesh geometry or supply a tensor manually!
+ 
+(Filename: \unitystuff\proj\external_sources\physx\novodex\SDKs\Physics\src\NpActor.cpp Line: 150)
+
+    Total Object count 251 (Before unload 226)
+Cleanup player
