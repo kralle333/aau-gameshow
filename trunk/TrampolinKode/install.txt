@@ -1,0 +1,11 @@
+Plug USB kabel i pc, tjek i enhedshåndtering hvilken COM-port der er oprettet (windows gør det tilfældigt)
+
+Code::Blocks
+	Åben projektet i "keyoutput"
+	Tilpas COM-porten (se enhedshåndtering)
+	Tilpas evt. den simulerede key-press
+	Compile & Run
+	Tjek evt. i notepad, om der er tilfredsstillende output
+	Hvis der ikke er prøv at resette arduino (den med sensorerne), genstart programmet på pc
+	
+Start spillet
