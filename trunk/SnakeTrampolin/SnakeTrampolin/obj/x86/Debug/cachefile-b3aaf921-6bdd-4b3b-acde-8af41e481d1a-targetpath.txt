@@ -3,3 +3,5 @@ Content\apple.xnb
 Content\backgroundSnake.xnb
 Content\snakeHead.xnb
 Content\highScoreFont.xnb
+Content\verLine.xnb
+Content\horLine.xnb
