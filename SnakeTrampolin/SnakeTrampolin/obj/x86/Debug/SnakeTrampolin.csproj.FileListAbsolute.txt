@@ -20,3 +20,9 @@ E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\obj\x86\Debug
 E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\obj\x86\Debug\SnakeTrampolin.exe
 E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\obj\x86\Debug\SnakeTrampolin.pdb
+E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\SnakeTrampolin.exe.manifest
+E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\SnakeTrampolin.application
+E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\obj\x86\Debug\SnakeTrampolin.exe.manifest
+E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\obj\x86\Debug\SnakeTrampolin.application
+E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\verLine.xnb
+E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\horLine.xnb

@@ -22,6 +22,8 @@ namespace SnakeTrampolin
 		Texture2D snakeBodyTexture;
 		Texture2D snakeHeadTexture;
 		Texture2D background;
+		Texture2D horLine;
+		Texture2D verLine;
 		SpriteFont highScoreFont;
 
 		Random random = new Random();
@@ -70,6 +72,8 @@ namespace SnakeTrampolin
 			snakeBodyTexture = Content.Load<Texture2D>("snakeBody");
 			snakeHeadTexture = Content.Load<Texture2D>("snakeHead");
 			background = Content.Load<Texture2D>("backgroundSnake");
+			horLine = Content.Load<Texture2D>("horLine");
+			verLine = Content.Load<Texture2D>("verLine");
 			highScoreFont = Content.Load<SpriteFont>("highScoreFont");
 
 			for (int x = 0; x < 25; x++)
@@ -254,6 +258,16 @@ namespace SnakeTrampolin
 			spriteBatch.Draw(background, new Vector2(100, 100), Color.White);
 			if (playScreenActive)
 			{
+				for (int x = 0; x < 26; x++)
+				{
+					spriteBatch.Draw(verLine, new Vector2(x*32+100,0+100), Color.White);
+				}
+				for (int y = 0; y < 21; y++)
+				{
+					spriteBatch.Draw(horLine, new Vector2(0+100,y*32+100), Color.White);
+				}
+
+				#region Drawing snake
 				bool headDrawn = false;
 				foreach (Vector2 position in snakePosition)
 				{
@@ -274,6 +288,7 @@ namespace SnakeTrampolin
 						headDrawn = true;
 					}
 				}
+				#endregion
 				spriteBatch.Draw(appleTexture, applePosition + new Vector2(3), Color.White);
 			}
 			else

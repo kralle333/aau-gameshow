@@ -46,6 +46,24 @@
       <Output>E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\highScoreFont.xnb</Output>
       <Time>2010-09-08T19:06:35.307228+02:00</Time>
     </Item>
+    <Item>
+      <Source>verLine.png</Source>
+      <Name>verLine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\verLine.xnb</Output>
+      <Time>2010-09-19T21:42:27.0900018+02:00</Time>
+    </Item>
+    <Item>
+      <Source>horLine.png</Source>
+      <Name>horLine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Dokumenter\Programmering\GameShow\SnakeTrampolin\SnakeTrampolin\bin\x86\Debug\Content\horLine.xnb</Output>
+      <Time>2010-09-19T21:41:55.2147268+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
